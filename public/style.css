@@ -1,0 +1,46 @@
+body{
+  background-color: #00c7bd;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  padding: 1em;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  margin: 2rem auto 0 auto;
+  max-width: 600px;
+  padding: 1em;
+  border: none;
+}
+
+.sameLine{
+  position: relative;
+}
+
+.copyButton {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  left:90%;
+  bottom: 45%;
+  cursor: pointer;
+}
+
+
+label {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+input {
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+
+
+
